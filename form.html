@@ -4,9 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Survey Form</title>
 </head>
 <body>
-    <div class="back1"></div>
+    <div class="back1">
+        <div class="banner"></div>
+        <div class="form23">
+            <div class="boxy">
+                <h1 class="satisfaction">Customer Satisfaction Form</h1>
+            </div>
+            <section class="formcarry-container">
+                <form action="#" method="POST" enctype="multipart/form-data">
+                <div class="formcarry-block">
+                    <label for="fc-generated-1-name">Full Name</label>
+                    <input type="text" name="name" id="fc-generated-1-name" placeholder="Your first and last name" />
+                  </div>
+                    
+                  <div class="formcarry-block">
+                    <label for="fc-generated-1-email">Your Email Address</label>
+                    <input type="email" name="email" id="fc-generated-1-email" placeholder="john@doe.com" />
+                  </div>
+                    
+                  <div class="formcarry-block">
+                    <label for="fc-generated-1-telephone">Your Phone Number</label>
+                    <input type="tel" name="telephone" id="fc-generated-1-telephone" placeholder="### ### ####" />
+                  </div>
+
+                  <div class="formcarry-block">
+                    <label for="fc-generated-1-bugs">For How many days have you used the app?</label>
+                    <input type="radio" name="bugsYes" style="height: 15px;width: 24px;" id="bugsYes" required> <b>Yes</b>
+                    <input type="radio" name="bugsNo" style="height: 15px;width: 24px;" id="bugsno"> <b>No</b>
+                  </div>
+
+                  <div class="formcarry-block">
+                    <label for="fc-generated-1-name">Have you faced any bugs in the app?</label>
+                    <input type="number" name="name" id="fc-generated-1-name" placeholder="Enter number of Days" />
+                  </div>
+                                            
+                  <div class="formcarry-block">
+                    <label for="fc-generated-1-people">Are you satisfied with the service provided?</label>
+                    <select name="people" id="fc-generated-1-people">
+                      <option value="" selected disabled>Please select..</option>
+                      <option value="Strongly Agree">Strongly Agree</option>
+                      <option value="Agree">Agree</option>
+                      <option value="Neutral">Neutral</option>
+                      <option value="Disagree">Disagree</option>
+                      <option value="Strongly Disagree">Strongly Disagree</option>
+                    </select>
+                  </div>
+
+                  <div class="formcarry-block">
+                    <label for="fc-generated-1-people">How you Discovered our services?</label>
+                    <select name="people" id="fc-generated-1-people">
+                      <option value="" selected disabled>Please select..</option>
+                      <option value="Website">Website</option>
+                      <option value="Through Friends">Through Friends</option>
+                      <option value="Article">Article</option>
+                      <option value="Social Media">Social Media</option>
+                      <option value="Advertisement">Advertisement</option>
+                    </select>
+                  </div>
+                    
+                  <div class="formcarry-block">
+                    <label for="fc-generated-1-additionalFeedback">Additional comments</label>
+                    <textarea name="message" name="additionalFeedback" id="fc-generated-1-additionalFeedback" placeholder="Enter your message..."></textarea>
+                  </div>
+                    
+                  <div class="formcarry-block">  
+                    <button type="submit">Send</button>
+                  </div>
+                
+                </form>
+                </section>
+        </div>
+    </div>
 </body>
 </html>
