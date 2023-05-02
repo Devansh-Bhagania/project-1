@@ -14,69 +14,63 @@
             <div class="boxy">
                 <h1 class="satisfaction">Customer Satisfaction Form</h1>
             </div>
-            <section class="formcarry-container">
-                <form action="#" method="POST" enctype="multipart/form-data">
-                <div class="formcarry-block">
-                    <label for="fc-generated-1-name">Full Name</label>
-                    <input type="text" name="name" id="fc-generated-1-name" placeholder="Your first and last name" />
-                  </div>
-                    
-                  <div class="formcarry-block">
-                    <label for="fc-generated-1-email">Your Email Address</label>
-                    <input type="email" name="email" id="fc-generated-1-email" placeholder="john@doe.com" />
-                  </div>
-                    
-                  <div class="formcarry-block">
-                    <label for="fc-generated-1-telephone">Your Phone Number</label>
-                    <input type="tel" name="telephone" id="fc-generated-1-telephone" placeholder="### ### ####" />
+            <form action="#">
+                  <div class="container">
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Name" size="34">
                   </div>
 
-                  <div class="formcarry-block">
-                    <label for="fc-generated-1-bugs">For How many days have you used the app?</label>
-                    <input type="radio" name="bugsYes" style="height: 15px;width: 24px;" id="bugsYes" required> <b>Yes</b>
-                    <input type="radio" name="bugsNo" style="height: 15px;width: 24px;" id="bugsno"> <b>No</b>
+                  <div class="container">
+                    <label for="Email">Email</label>
+                    <input type="Email" placeholder="Email" size="34">
                   </div>
 
-                  <div class="formcarry-block">
-                    <label for="fc-generated-1-name">Have you faced any bugs in the app?</label>
-                    <input type="number" name="name" id="fc-generated-1-name" placeholder="Enter number of Days" />
+                  <div class="container">
+                    <label for="Phone Number">Phone Number</label>
+                    <input type="Number" placeholder="+91### ###" size="34">
                   </div>
-                                            
-                  <div class="formcarry-block">
-                    <label for="fc-generated-1-people">Are you satisfied with the service provided?</label>
-                    <select name="people" id="fc-generated-1-people">
-                      <option value="" selected disabled>Please select..</option>
-                      <option value="Strongly Agree">Strongly Agree</option>
-                      <option value="Agree">Agree</option>
-                      <option value="Neutral">Neutral</option>
-                      <option value="Disagree">Disagree</option>
-                      <option value="Strongly Disagree">Strongly Disagree</option>
+
+                  <div class="container">
+                    <label for="Gender">Gender</label>
+                    <select class="select"name="gender" id="gender" size="1">
+                      <option value="Male">Male</option>
+                      <option value="Female">Female</option>
                     </select>
                   </div>
 
-                  <div class="formcarry-block">
-                    <label for="fc-generated-1-people">How you Discovered our services?</label>
-                    <select name="people" id="fc-generated-1-people">
-                      <option value="" selected disabled>Please select..</option>
-                      <option value="Website">Website</option>
-                      <option value="Through Friends">Through Friends</option>
-                      <option value="Article">Article</option>
-                      <option value="Social Media">Social Media</option>
-                      <option value="Advertisement">Advertisement</option>
+                  <div class="container">
+                    <label for="bugs">Did you find Any Bugs?</label>
+
+                    <input style="display:inline-block; float:left;" type="checkbox" name="yes" id="yes">
+                    <label for="bugs">Yes</label>
+
+                    <input style="display:inline-block; float:left;" type="checkbox" name="no" id="no">
+                    <label for="bugs">No</label>
+              
+                  </div>
+
+                  <div class="container">
+                    <label for="satisfy">How would you rate the application ?</label>
+                    <select class="select"name="rating" id="rating" size="1">
+                      <option value="Good">Good</option>
+                      <option value="Veru Good">Very Good</option>
+                      <option value="Average">Average</option>
+                      <option value="Bad">Bad</option>
                     </select>
                   </div>
-                    
-                  <div class="formcarry-block">
-                    <label for="fc-generated-1-additionalFeedback">Additional comments</label>
-                    <textarea name="message" name="additionalFeedback" id="fc-generated-1-additionalFeedback" placeholder="Enter your message..."></textarea>
+
+                  <div class="container">
+                    <label for="comments">Please give Us your feedback.</label>
+                    <textarea id="comment" name="comment" rows="4" cols="50">
+                 
+                      </textarea>
                   </div>
-                    
-                  <div class="formcarry-block">  
-                    <button type="submit">Send</button>
+
+                  <div class="container">
+                    <button  class="btn43" type="submit">Submit</button>
                   </div>
-                
-                </form>
-                </section>
+
+            </form>
         </div>
     </div>
 </body>
