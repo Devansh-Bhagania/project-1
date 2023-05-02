@@ -18,6 +18,8 @@ nav {
     margin: 0;
     padding-left:50px;
   }
+
+  
   
   nav li {
     float: left;
@@ -38,6 +40,16 @@ nav li a:hover{
     color:skyblue;
 }
 
+.new1{
+    margin-top:20px;    
+    padding-left:25px;
+  } 
+
+  .new2{
+    padding-left:25px;
+    font-size:80px;
+  } 
+
 .flex{
     display:flex;
     gap: 7.7em;
@@ -48,6 +60,8 @@ nav li a:hover{
     width:700px;
     background-color:white;
 }
+
+
 
 .vector{
     height:87vh;
@@ -61,6 +75,7 @@ nav li a:hover{
     color:rgb(26, 26, 58);
     font-size:100px;
     margin-left:6.9rem;
+    margin-top:10px;
     margin-bottom:0px;
     font-family:sans-serif;
     
@@ -194,12 +209,28 @@ nav li a:hover{
 
 .form{
     height:80vh;
-    background-color: blue;
+    background-color: lightgray;
 }
 
-.titecon{
+.form{
+    overflow:hidden;
+}
+
+.titlecon{
     font-size:90px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align:center;
-    justify-content:center;
+    margin:auto;
+    margin-top:90px;
+}
+
+.pra1{
+    text-align:center;
+    margin-right:40px;
+    margin-left:40px;
+    font-size:23px;
+}
+
+.btm{
+    margin:auto;
 }
