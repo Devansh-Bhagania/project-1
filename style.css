@@ -289,16 +289,35 @@ background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
 
 
 
+.aboutus{
+  height:90vh;
+  background:#00DDEB;
+  text-align:center;
+  overflow:hidden;
+}
 
+.abut{
+  margin-top:40px;
+  font-size:80px;
+}
 
+.abut1{
+  font-size:30px;
+  margin-left:90px;
+  margin-right:90px;
+  
+}
 
+.aboutbtn{
+  font-size:34px;
+  height:64px;
+  width:150px;
+  background: green;
+  border:none;
+  border-radius:3
+  0px;
 
-
-
-
-
-
-
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
 

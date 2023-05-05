@@ -17,7 +17,7 @@
             <form action="#">
                   <div class="container">
                     <label for="name">Name</label>
-                    <input type="text" placeholder="Name" size="34">
+                    <input type="text" placeholder="Name" size="34" required>
                   </div>
 
                   <br>
@@ -26,7 +26,7 @@
 
                   <div class="container">
                     <label for="Email">Email</label>
-                    <input type="Email" placeholder="Email" size="34">
+                    <input type="Email" placeholder="Email" size="34" required>
                   </div>
 
                   <br>
@@ -34,7 +34,7 @@
 
                   <div class="container">
                     <label for="Phone Number">Phone Number</label>
-                    <input type="telephone" placeholder="+91### ###" size="34">
+                    <input type="telephone" placeholder="+91### ###" size="34" required>
                   </div>
 
                   <br>
@@ -42,7 +42,7 @@
 
                   <div class="container">
                     <label for="Gender">Gender</label>
-                    <select class="select"name="gender" id="gender" size="1">
+                    <select class="select"name="gender" id="gender" size="1" required>
                       <option value="Male">Male</option>
                       <option value="Female">Female</option>
                     </select>
@@ -55,11 +55,8 @@
                   <div class="container">
                     <label for="bugs">Did you find Any Bugs?</label>
 
-                    <input style="display:inline-block; float:left;" type="checkbox" name="yes" id="yes">
-                    <label for="bugs">Yes</label>
-
-                    <input style="display:inline-block; float:left;" type="checkbox" name="no" id="no">
-                    <label for="bugs">No</label>
+                    <input type="radio" name ="bugs1" id="bugs1" required style="height:35px;width: 25px;">Yes
+                    <input type="radio" name ="bugs1" id="bugs1" required style="height: 35px;width: 25px;">No
               
                   </div>
 
@@ -69,7 +66,7 @@
                   <br>
                   <div class="container">
                     <label for="satisfy">How would you rate the application ?</label>
-                    <select class="select"name="rating" id="rating" size="1">
+                    <select class="select"name="rating" id="rating" size="1" required>
                       <option value="Good">Good</option>
                       <option value="Veru Good">Very Good</option>
                       <option value="Average">Average</option>
